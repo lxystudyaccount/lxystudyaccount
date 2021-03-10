@@ -1,0 +1,914 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Adobe全家桶的科普指南, LXY">
+    <meta name="description" content="原文链接： http://dy.163.com/v2/article/detail/EB73JUSM0531713O.html 
+
+            
+                　　　　　　Adobe的软件是大家日常使用频率非常">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Adobe全家桶的科普指南 | LXY</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+    <style type="text/css">
+        
+    </style>
+
+    <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
+
+<meta name="generator" content="Hexo 4.2.1"><link rel="alternate" href="/atom.xml" title="LXY" type="application/atom+xml">
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+
+
+<body>
+
+<header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">LXY</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fa fa-navicon"></i></a>
+<ul class="right">
+    
+    <li class="hide-on-med-and-down">
+        <a href="/" class="waves-effect waves-light">
+            
+            <i class="fa fa-home"></i>
+            
+            <span>首页</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/tags" class="waves-effect waves-light">
+            
+            <i class="fa fa-tags"></i>
+            
+            <span>标签</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/categories" class="waves-effect waves-light">
+            
+            <i class="fa fa-bookmark"></i>
+            
+            <span>分类</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/archives" class="waves-effect waves-light">
+            
+            <i class="fa fa-archive"></i>
+            
+            <span>归档</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/about" class="waves-effect waves-light">
+            
+            <i class="fa fa-user-circle-o"></i>
+            
+            <span>关于</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/friends" class="waves-effect waves-light">
+            
+            <i class="fa fa-address-book"></i>
+            
+            <span>友情链接</span>
+        </a>
+    </li>
+    
+    <li>
+        <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+            <i id="searchIcon" class="fa fa-search" title="搜索"></i>
+        </a>
+    </li>
+</ul>
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">LXY</div>
+        <div class="logo-desc">
+            
+            路漫漫其修远兮，吾将迷途而知返
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li>
+            <a href="/" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-home"></i>
+                
+                首页
+            </a>
+        </li>
+        
+        <li>
+            <a href="/tags" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-tags"></i>
+                
+                标签
+            </a>
+        </li>
+        
+        <li>
+            <a href="/categories" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-bookmark"></i>
+                
+                分类
+            </a>
+        </li>
+        
+        <li>
+            <a href="/archives" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-archive"></i>
+                
+                归档
+            </a>
+        </li>
+        
+        <li>
+            <a href="/about" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-user-circle-o"></i>
+                
+                关于
+            </a>
+        </li>
+        
+        <li>
+            <a href="/friends" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-address-book"></i>
+                
+                友情链接
+            </a>
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/blinkfox/hexo-theme-matery" class="waves-effect waves-light" target="_blank">
+                <i class="fa fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/blinkfox/hexo-theme-matery" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
+
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/8.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <div class="description center-align post-title">
+                        Adobe全家桶的科普指南
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        margin: 35px 0 15px 0;
+        padding-left: 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #toc-content .is-active-link::before {
+        background-color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 20px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                          <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                          </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fa fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/Adobe/" class="post-category" target="_blank">
+                                Adobe
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                <div class="post-date info-break-policy">
+                    <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2019-01-08
+                </div>
+
+                
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
+                        5.7k
+                    </div>
+                    
+
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                        19 分
+                    </div>
+                    
+                
+				
+				
+            </div>
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <p>原文链接： <a href="http://dy.163.com/v2/article/detail/EB73JUSM0531713O.html" target="_blank" rel="noopener">http://dy.163.com/v2/article/detail/EB73JUSM0531713O.html</a> </p>
+<div class="article_box">
+            <div class="content" id="content" data-cover="">
+                <p class="f_center">　　<img src="http://crawl.ws.126.net/2aaea1e5557ed1508059680cf42fc7df.jpg"><br></p><p class="f_center">　　<img src="http://crawl.ws.126.net/2aaea1e5557ed1508059680cf42fc7df.jpg"><br></p><p>　　Adobe的软件是大家日常使用频率非常高的软件，Adobe旗下都有些什么软件，这些东西是拿来干嘛的？对你的工作有没有帮助？</p><p>　　首先，在开始之前回答两个重心问题：</p><p>　　<strong>Q：我要不要买正版？</strong> </p><p>　　A：2014年10月，Adobe属于中国的研发团队逐步解散,中国区的研发工作将交予Adobe印度公司负责。</p><p>　　大意就是，Adobe退出中国。想要了解的可以百度一下，有非常多的分析文章，我总结一下：Adobe在中国赚不到钱不单单是因为个人使用盗版，更是因为包括大企业和政府机关都会使用盗版（外国也是如此），重点是Adobe对中国市场的定位太高！价格贵得飞起且变动不灵活。（额，跑题了…）所以，你可以登录Adobe中国官网看看，现在最新的版本是CS6！而且价格是定死的！你可以再去Adobe香港看看，软件都是最新的，还可轻松登录云系统！软件也有多种套餐和优惠。所以即使你需要购买正版，也不要购买中国地区的。（个人见解，请勿随意参考）</p><p>　　<strong>Q：盗版跟正版功能上有什么区别？</strong> </p><p>　　A：这个问题挺多人问的，答案是：没有区别！有的同学发现自己安装的盗版有些功能不能用（比如PS的3D）其实是因为安装出错或者缺少需要的插件，建议下载大师版安装。Adobe的产品非常良心，导致盗版可以使用正版的全部功能，包括云系统！！！你完全可以使用盗版的云同步（感动得我合不拢腿）【给各位介绍一下这个非常神的功能，登录Creative Cloud后可以上传个人预设跟软件设置，特别是PS和AI，可以上传图层，比如你要把PSD中某个元素发给同事改改，你们可以登录同一个账号，按一个按钮，你的PS图层就会出现在他的电脑AI上，完全不需要其他操作…】极其建议Adobe公司建立一个官方支付宝账号，方便被感动的人们自愿捐赠！（网络因人而异，有些版本或者地区可能会使用不了这个功能）</p><p>　　好的，= =，终于要开始正文了，本文完全没有鼓励大家使用盗版的意思，请各位也勿围绕盗版展开讨论。以下软件排名为乱序：</p><p class="f_center">　　<img src="http://crawl.ws.126.net/f70cde522c70403b1d0ed2eff0dd25da.jpg"><br></p><p class="f_center">　　<img src="http://crawl.ws.126.net/f70cde522c70403b1d0ed2eff0dd25da.jpg"><br></p><p>　　 <strong>Photoshop</strong> </p><p>　　说到PS，这玩意就是Adobe的发家致富之物，在很久很久之前，星球大战的特效师约翰·诺尔和他的弟弟在一个黑暗的房…停停停，不能扯历史了QAQ。各位感兴趣的可以自己上维基百科查看…</p><p>　　PS就是一个图片处理软件，这个应该是不用介绍的，因为PS已经成为了一切修改图片的代言（曾经有师妹问我：师兄你是用什么软件PS的？）PS是一直领跑全球的图片处理软件，没有之一。</p><p>　　现在还有大量的人在使用CS3甚至7.0版本（那颗大眼睛），ADOBE的软件是不是越更新越好用，明确告诉你：是的。（同时硬件要求也会稍微上升，但是同等硬件售价一直在下降，所以不存在投入很大的说法！）所以有空还是尽快更新吧。最新版本应该是拥有3D打印功能的那一个CC 2018，在帮助-系统信息下可查看具体版本。</p><p>　　如果你要问我新版本最让人感动的地方的话，个人认为是内容识别（shift+F5），其次才是裁剪什么的…</p><p>　　<strong>Photoshop Elements </strong> </p><p>　　最新的版本是Photoshop elements 13，可以理解为这是PS的简化版本，这玩意可以打开PSD格式文件并编辑，但使用起来就会发现跟PS似乎区别也没那么大，该有的功能都有，简单好用易上手，推荐给“觉得美图秀秀不够好，但PS又不想学”的妹子们。至于好用程度，机智的我发现了还有英国大叔用这个软件做假车票被抓的悲剧。这个软件更新很快，Adobe打算攻坚低端市场？干得漂亮！…PS：盗版用户请谨慎更新。）</p><p>　　<strong>Lightroom</strong> </p><p>　　LR是一个照片处理软件，人称摄影师的必备后期工具（然而很多摄影师还是坚持使用PS…），LR有几个特点，它有一套自己的存储、备份与分类、管理文件方案（这点PS望尘莫及），而且调色预设非常方便，可以随时预览跟对比照片修改方案和预设，自己可以创造预设和使用其他人的预设是最热门的功能。说白了LR就是调色快速方便，如果要精修还是得用PS。还有，Camera Raw （新版本PS内置插件）和LR的功能可以说是“一个模子印出来的”。如果你不需要文件管理与套预设的话，用Camera Raw 基本可以代替LR。（个人见解，请勿随意参考）</p><p class="f_center">　　<img src="http://crawl.ws.126.net/229c63977d24ca1c0347f0bb8ffae482.jpg"><br></p><p class="f_center">　　<img src="http://crawl.ws.126.net/229c63977d24ca1c0347f0bb8ffae482.jpg"><br></p><p>　　 <strong>Adobe Illustrator</strong> </p><p>　　窝觉得AI也不用介绍诶…Adobe Illustrator是矢量绘图软件，最大的特点就是基本靠钢笔操作。输出、链接到各种格式、软件都非常好用，网络上有千千万万的AI工作者，特别是插图，UI，LOGO，矢量花纹、背景、图案、3D…嗯，好像除了图片所有都可以经AI很好的处理，AI涉及非常多的领域贴别是印刷方面，熟练的人可以用AI创造任何东西（拟物化大神），AI技巧有非常多，字体3D和潮流的扁平跟低面风格都很让人喜爱，学好AI也对平面设计师有很多好处。</p><p>　　<strong>Adobe Premiere</strong> </p><p>　　Adobe Premiere，用起来最爽的视频剪辑工具之一。PR剪辑视频非常精准，声音跟画面同步预览和修改，易学高效，跨行业最广的必备的剪辑工具，而且除了剪辑，它还可以制作非常多的影视特效！除了它跟AE共用的大量外部插件以外，自带的效果也不算少，调色、转场、遮罩、调音、滤镜、扭曲等等，Youtube上就有不少视频使用简单剪辑特效制作神奇效果以假乱真，网上教程也非常多，这是我最满意的软件之一，除了字幕（吐血中…）这软件还是非常完美的，它跟AE相互可以完美连接工程，两个软件配合使用天下无敌。可以使用显卡CUDA加速（下面会有一段专门讲解硬件姿势）它跟AE的流畅度对比起来就好像老硬盘对比SSD一样。</p><p class="f_center">　　<img src="http://crawl.ws.126.net/263751de91ecec5abffcd068e8ad866e.jpg"><br></p><p class="f_center">　　<img src="http://crawl.ws.126.net/263751de91ecec5abffcd068e8ad866e.jpg"><br></p><p>　　 <strong>PR Element：</strong> </p><p>　　跟PS element一样，也出到了13版本。本以为简化版不会有太多的功能，但我错了，它有快速和专家模式，专家模式也提供了多轨编辑。滤镜跟转场也非常多，还有预设图像和自动调色，有这些就算了，居然还有抖动稳定器和运动跟踪！这还是剪辑软件吗= =，让会声会影情何以堪啊。。。非常建议“想快速做一个简洁可爱视频但不想费劲学软件”的妹子使用PR element，同样的，这个软件更新也非常快，如果将来支持插件的话，会声会影压力会大。。。（什么是运动跟踪？你可看过有码动作片？：）</p><p>　　<strong>PL：</strong> </p><p>　　粗剪软件，界面跟PR没什么区别，但是对应时间轴跟多视频时更加方便。</p><p>　　<strong>Bridge</strong> </p><p>　　Bridge是一个平面素材管理软件，它可以直接查看PSD文件（虽然很多第三方看图软件也可以做到，但是经常颜色会失真和出现噪点）也可以调用Camera Raw来编辑图片，最重要的是管理、归类、打分系统非常全面，快速的就可以找到想要的东西，可能刚刚开始接触平面不会太觉得，但当你工作半年以后，你会觉得电脑里面乱糟糟的，每次找东西发给别人简直要命。</p><p>　　<strong>Adobe InDesign</strong> </p><p>　　Adobe InDesign简单的说是一个排版软件，用于杂志、周刊、报纸、出版物、海报等。可以将文档直接导出为Adobe的PDF格式，可以与AI、PS完美结合，包容性强大，纸上媒体都爱它，说到ID就不得不吐槽CDR（CorelDraw，Corel公司出的综合型平面软件，常用来排版） 这口苦水我怎么都要吐CDR一脸！CDR到底是不是一个已经完成的WINDOS软件？各种卡顿延迟，鼠标失踪，高兴的时候卡你两分钟，不高兴直接让你死机，自动保存失灵，文件图片丢失，图片有色差，图层难选中，无论你配置多高用的是X4X5X6X7都照样崩溃！用过CDR的人都被它虐过！你看看人家Adobe，稳定又流畅，简直就是微软生的娃…(再次呼吁Adobe开设支付宝捐赠….)</p><p>　　<strong>Incopy</strong> </p><p>　　Incopy，是搭配ID使用的排版软件，用这个软件的人实在是少，下图看界面就明白了，虽然跟ID相像，但更加注重于文字排版，对于ID支持不好的文字选项它都得心应手，在官方介绍中看得出，几乎就是一个ID的插件…..</p><p class="f_center">　　<img src="http://crawl.ws.126.net/70c19fc9743a87f4dd58210a5f46bd65.jpg"><br></p><p class="f_center">　　<img src="http://crawl.ws.126.net/70c19fc9743a87f4dd58210a5f46bd65.jpg"><br></p><p>　　 <strong>Audition</strong> </p><p>　　Audition是Adobe产品里面唯一的音频编辑软件。主攻混音、剪辑、录音等，也可以用来降噪、去噪、提取人声、处理均衡等，这个软件我并没有用过多少次，没有我一开始想象般那样厉害，不能凭空创造音乐，也很难通过调音来将普通声音创造音乐，感觉效果不多，对入门用户也不大友好，但大神的作品还是非常棒的。接触不多，吐槽不能，见谅。</p><p>　　<strong>After Effects</strong> </p><p>　　终于说到After Effects了，这是一个最为著名的非线性编辑合成软件，也是我工作主要使用的软件之一，其强大的功能霎时间让我无从下口，其自身除了剪辑以外添加了大量的合成特效，像是一个容器可以装载各种各样的工具，你可能使用AE一两年都不能熟练掌握它的各种特效，为什么？一，每种效果的可调节性强，不像PR，拖效果进入轨道调一下关键帧就完事，AE的效果普遍滑块长、数值乱、颜色多，并且几种特效可以同时叠加起作用！经常想要重现效果还要拿笔记一下。二，第三方插件越来越多，体积跟内容也越来越多，比如蓝宝石插件自带上百种特效真是虐够我了，粒子光效和运动感觉就是无穷无尽的大坑，AK大神的E3D跟光效更是把AE的3D加强到了一个新境界，C4D的插件直接建模型进行操作…..</p><p>　　AE的教程书别提有多厚了，网上教程极多，素材极多，模板极多。关于模板我要说一件事情，用套模板可以说是AE最为广泛的使用方法，甚至很多人对AE并不熟悉的人利用套模板混优质工作岗位，或者倒卖模板获利！我不评判这种现象，但的确是有些许不公平，因为这并不是你的作品，不是你的能力体现，你不应该获得这份自豪和收获，但这也正是现实的残酷，很多刚毕业的特效师都被只会套模板的同学逼到转职你造吗。但毕竟很多爱好者都是这样过来的，努力做到，套一次模板学到一个新技能便是一个好目标，很多模板都有值得学习的东西，现在我已经可以差不多做到看一遍分析得出是怎么做的，图层关系跟特效运用有是怎么实现的，自己再努力临摹，这还是挺好的</p><p>　　<strong>关于硬件</strong> </p><p>　　很多人经常会问，我想搞平面设计、影视后期、三维建模的工作，需要什么硬件？</p><p>　　我先避开苹果系统，苹果系统在某些方面的确是有着一定的优势，但如果是需要个人掏腰包、或者在校学生和家庭共用时，我并不推荐苹果系统。但干这一行的，显示器都需要稍微大一点的，分辨率也尽量以高为好，记得关闭显示器那些乱七八糟的自动功能。</p><p>　　<strong>平面设计</strong> </p><p>　　PS、AI、CDR等软件，平面软件并不吃显卡，所以并不需要在显卡上投入多少。（除非玩游戏）CPU，推荐i5-3470或者以上型号，Adobe软件对多核优化还是挺好的，i5足够。内存8G或者以上，内存是一个重大条件，经常PS内存吃满后就开始略卡，内存尽量多投入。</p><p>　　<strong>影视后期</strong> </p><p>　　视频最重要也是最耗费时间的地方在于渲染，像是AE/PR之类的，渲染主要还是靠CPU，很明显I7的主频得天独厚，有钱的就上I7-4790K，没钱的就借钱上E3-V2/3，切记不能超频使用，稳定为上。那显卡呢？因为Adobe拥有CUDA加速预览（特别是PR）所以选择显卡需要拥有CUDA功能的（现在N卡基本都有）但实测并没有理想中的效果，显卡利用率不高，所以GTX660/760就已经完全足够使用了。</p><p>　　内存：越大越好，16G够吗？我只能说32G都觉得吃力。内存尽力而为，毕竟这个东西不贵也保值，并且对渲染和预览有很大影响。硬盘：做视频的1T、2T、5T..不在话下，素材也是很大的。那需不需要SSD？其实输出来说SSD并没有瓶颈，但是读取素材的时候最好还是放SSD里面，这个不是必须的，但有是最好了，用着也舒心。（在影视后期中，双屏幕非常实用。）</p><p>　　<strong>三维建模</strong> </p><p>　　三维是业界最耗硬件的，特别是灯光复杂，全局光照，环境吸收，高分辨率等的情况下，吃显卡非常厉害，公司项目找渲染农场，富豪请用专业卡（丽台Quadro 系列），普通显卡的话，一分钱一分货，我也推荐不来，不如就把预算权重投入到CPU中更为划算，同样是尽量上E3，努力上I7，内存和SSD需求不大。（如果只是日常渲染物件静帧的话，其实普通配置也能撑得起）（注意部分建模软件不吃显卡，渲染器吃显卡）</p><p>　　有的同学问：我经常打开软件会很卡，鼠标不听使唤乱闪。这一般都是硬盘读不过来，特别是插件或者字体多的同学，解决方法是删掉那些没用的东西，检查硬盘有没有坏道，坏道只能屏蔽没法修。建议把软件放在SSD内，机械硬盘尽量挑选缓存大和转速高的（希捷别选三碟的，西数别选绿盘）机械硬盘同时也是电脑里面最容易坏的东西，记得定时备份。</p><p>　　*CAD：据说CAD的硬件要求比较特殊，没有考究不作参考。</p><p>　　<strong>Edge Animate</strong> </p><p>　　说完AE必须说一说AN，AN可以说是H5网页动效神器，主要是拿来制作网页动画与效果甚至网页游戏的，从时间轴和舞台界面来看，真的很像AE和FL的合体！转换代码后的图形动态效果明显要比FLASH更为流畅易控，而且带有缓动曲线，虽然看起来强大，但现在还是刚刚起步不久，有人就要问了“这不是要取代FLASH的节奏吗”不一定！很明显这是一个针对移动端（移动端对FLASH兼容和体验太差）的网页，对于桌面网页FLASH还取代不来，而且这个软件还有很多缺陷（下图），现在官网上已经放出很多模板和样式，也越来越多的人踏入这个坑，你为什么不用H5建一个手机个人网页玩玩呢？这个软件支持插件，将来必成大器！</p><p>　　<strong>MU：</strong> </p><p>　　一开始接触MU的时候，上网找资料搜索出来全是“奇迹MU”“极品装备，一秒刷爆”。。。MU是一个建站工具，是专门给设计师建站用的，但一直没有什么起色，因为根本没几个设计师会自己建站，这个工具还是很好用的，兼容PS、AI、ID，还带有一点交互特效。但让我觉得奇怪的是居然打不开HTML，它支持AN的oam格式，但我在AN里面找了半天都不知道怎么输出oam…谁知道这两个软件怎么配合的告诉我一下…</p><p>　　<strong>Flash</strong> </p><p>　　Flash就是Flash啊，不想作介绍。。从CS6开始Flash开始支持HTML5，cc版本做了更加全面的优化，对网络的支持那是极好的，你现在点开一个下载站，你会被无数的FLASH窗口淹没，Flash简单易用（..）传统，掌握FLASH的人非常多，但毕竟还是因为体积大加载慢不稳定等问题坐等淘汰</p><p>　　对了，有一点要强调一下，曾经火爆全球的FLV网络视频格式，在CC2014版本中已经被完全淘汰，是的，所有的Adobe软件都没办法导出FLV文件，我安装了接近十个解码器后放弃了…</p><p>　　<strong>SpeedGrade</strong> </p><p>　　SpeedGrade是一个调色软件，似乎是Adobe最年轻的软件。但我不得不吐槽，它没有中文啊！！（其他都是自带中文的）没有中文就算了，连中文路径都不支持！你打开文件夹只会看见一堆IIIIIII，这我还都忍了，但它界面是固定的啊！低分辨率（笔记本）下简直难受，但是仅仅作为一个调色软件还是不错的，调色选项很多，自带预设也不少，完美链接PR，而且完全不卡，还有很多我看不懂的色度表，改天看教程学习一下（主要是看不懂英文。。。）</p><p>　　<strong>Dreamweaver</strong> </p><p>　　Dreamweaver是所见即所得网页编辑器，网页设计师必备的工具之一，Adobe为网页真是操碎了心，功能强大，入门也不简单，曾经去上过一节DW的课，出来时晕头转向我就已经决定放弃当网页设计师了，给用DW的同学点个赞，你们来吐槽吧。。。</p><p class="f_center">　　<img src="http://crawl.ws.126.net/9d8f4ab51222849e2d3b3a7291211acc.png"><br></p><p class="f_center">　　<img src="http://crawl.ws.126.net/9d8f4ab51222849e2d3b3a7291211acc.png"><br></p><p>　　 <strong>Edge Reflow</strong> </p><p>　　Edge Reflow是可视化响应式设计工具，简单的是就是响应式网页排版工具，什么是响应式网页？打开花瓣，按住Ctrl建滚动鼠标中键，看见没有，我花瓣里面的美女图重新放大排序了，这就是响应式。这软件界面真是高大上啊，打开以为自己用上了苹果系统…</p><p>　　<strong>Media Encoder</strong> </p><p>　　Media Encoder是视频渲染软件，无缝连接到所有Adobe视频制作软件，非常推荐使用这家伙来渲染：案例一：当你AE做完一个视频，按了渲染，渲染到一半，然后卡死了，啊悲剧啊（这是一个真实的故事）如果直接放进ME里面渲染，AE这边不但不会死，还能继续操作。案例二：做一个视频渲染一次，渲染要等20分钟才行，再做第二个视频，多费时间啊。用ME把AE队列导进去，做一个导一个，晚上睡觉统一挂机渲染~爽</p><p>　　*关于ADOBE这几个能输出视频的软件，请务必要安装QUICKTIME，再安装个完美解码和格式工厂，要不然格式不支持，怎么哭都没有用。</p><p>　　<strong>Sc、Fb</strong> </p><p>　　这两好像是围绕基于FLASH的软件开发的管理和分析工具，跟踪和调查运行状况，似乎跟设计师一点关系都没有，不作深入了解</p><p>　　<strong>FW</strong> </p><p>　　好像已经不更新了，是一个用作网页制图、编辑、动图编辑的软件。</p><p>　　不知道为啥fw排到后面来了，关于FW不得不说有点伤感。还记得当年红红火火的“网页三剑客”，FL、DW、FW三个就想璀璨巨星一样闪耀，我还在读初中，想改一张图，按成龙的话说，就是加特效。便顺其自然的用上了著名的FW，操作简单，效果易控，图层关系清晰明了，还有对GIF输出控制非常方便！那天起我就卸载了美图秀秀。你可知道贴吧签名档里面曾经那些字闪闪的GIF基本都是出自于FW之手？之后那几年地位基本都被PS给取代了，没落的辉煌岁月。。。。。我初中用了两年，之后上大学被迫转到PS（PS的确好用啊QAQ）现在给别人说我精通FW，别人会反问我：FW啥？</p><p>　　<strong>Adobe Captivate</strong> </p><p>　　嗯，Adobe Captivate可能是比较边缘化的软件了，是用来录屏和演示的软件。年前用过一次，从此我就爱上他了！！真的是录屏神器！录完以后会自动添加鼠标轨迹，按键提示等，而且是一种类似PPT的可修改格式，还能导入PPT！也可以输出视频，想给客户演示你的节目、软件、UI使用效果？操作也是傻瓜的，快下载CP啊，比那些破录屏软件好用一百倍。</p><p>　　<strong>EN</strong> </p><p>　　EN是一个视频制作软件，界面跟PR非常相似，版本越更新就越没用，也是一个面临淘汰的软件，基本可以被PR取代，现在好像是拿来当视频发布和封装的软件。</p>
+                            </div>
+            <div class="statement">
+                <span class="bg"></span>
+                <p>特别声明：本文为网易自媒体平台“网易号”作者上传并发布，仅代表该作者观点。网易仅提供信息发布平台。</p>
+            </div>
+                        <link rel="stylesheet" type="text/css" href="https://static.ws.126.net/f2e/products/post1603/css/_tiesdk_channel_2016.yh17zEtxfVAu.4.css">
+<script>window.isLinkNewTiePage = true;</script>
+<script type="text/javascript" src="https://acstatic-dun.126.net/tool.min.js" _group="_tiesdk_channel_2016"></script>
+<script type="text/javascript" _group="_tiesdk_channel_2016">
+    //初始化反作弊
+    var wm = null;
+    // 只需初始化一次
+    initWatchman({
+        productNumber: 'YD00157343455660',
+        onload: function (instance) {
+            wm = instance
+            //console.log(wm)
+        }
+    });
+</script>
+<script src="https://static.ws.126.net/f2e/products/post1603/js/_tiesdk_channel_2016.wQoxBJHt5EvO.1.js"></script>
+            </div>
+            <hr/>
+
+            
+            <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.88rem;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-large waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fa fa-close"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+            
+
+            <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+
+<div id="article-share">
+    
+    <div class="social-share" data-disabled="qzone" data-wechat-qrcode-helper="<p>微信里点“发现”->“扫一扫”二维码便可查看分享。</p>"></div>
+    
+</div>
+
+<script src="/libs/share/js/social-share.min.js"></script>
+
+            <div class="reprint">
+                <p>
+                    <span class="reprint-tip">
+                        <i class="fa fa-exclamation-circle"></i>&nbsp;&nbsp;转载请注明:
+                    </span>
+                    <a href="https://work.liuxiangyang.space" class="b-link-green">LXY</a>
+                    <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
+                    <a href="/2019/01/08/adobe-quan-jia-tong-de-ke-pu-zhi-nan/" class="b-link-green">Adobe全家桶的科普指南</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
+            <div class="card">
+                <a href="/2019/01/27/wang-zhe-rong-yao-bi-xu-yao-xue-hui-de-qi-ge-ji-qiao-bu-ran-huo-gai-ni-lian-shu-100-chang/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="王者荣耀：必须要学会的七个技巧，不然活该你连输100场！">
+                        
+                        <span class="card-title">王者荣耀：必须要学会的七个技巧，不然活该你连输100场！</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary">王者荣耀这款游戏很多玩家都已经玩了很长一段时间了，可是比赛还是经常会输，什么10连败、8连败都是很常见。其实这个和你掌握的游戏技巧有很大的关系，就以下的这七个来说你必须要学会，无论是对线中的，还是团战的帮助都很大，要是你不学？活该你连输10</div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2019-01-27
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Game/" class="post-category" target="_blank">
+                                    Game
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/blog/" target="_blank">
+                        <span class="chip bg-color">blog</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2019/01/08/yu-ming-xin-xi/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="域名相关信息">
+                        
+                        <span class="card-title">域名相关信息</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary">
+
+
+
+
+
+
+
+
+
+
+
+
+
+工具名称：
+HeidiSQL Portable 10.3.0.5771
+XAMPP Control Panel V3.2.2
+FileZilla_Server_cn-0_9_46
+HeidiSQL_10.3_32</div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-01-08
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Work/" class="post-category" target="_blank">
+                                    Work
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+</div>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget">
+            <div class="toc-title"><i class="fa fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fa fa-list"></i>
+    </a>
+</div>
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            // headingsOffset: -205,
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).slideUp(500);
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).slideDown(500);
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+    });
+</script>
+    
+
+</main>
+
+
+<footer class="page-footer bg-color">
+    <div class="container row center-align">
+        <div class="col s12 m8 l8 copy-right">
+            本站由&copy;<a href="https://liuxiangyang.space" target="_blank">刘向洋</a>基于
+            <a href="https://hexo.io/" target="_blank">Hexo</a> 的
+            <a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">hexo-theme-matery</a>主题搭建.
+
+            
+                &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
+                <span class="white-color">22.3k</span>
+            
+
+            
+			
+        </div>
+        <div class="col s12 m4 l4 social-link ">
+
+
+    <a href="mailto:1330561079@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fa fa-envelope-open"></i>
+    </a>
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1330561079" class="tooltipped" data-tooltip="QQ联系我: 1330561079" data-position="top" data-delay="50">
+        <i class="fa fa-qq"></i>
+    </a>
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fa fa-rss"></i>
+    </a>
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+<!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fa fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+$(function () {
+    searchFunc("/" + "search.xml", 'searchInput', 'searchResult');
+});
+</script>
+<!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fa fa-angle-up"></i>
+    </a>
+</div>
+
+
+<script src="/libs/materialize/materialize.min.js"></script>
+<script src="/libs/masonry/masonry.pkgd.min.js"></script>
+<script src="/libs/aos/aos.js"></script>
+<script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+<script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+<script src="/js/matery.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+
+    <script src="/libs/others/clicklove.js"></script>
+
+
+
+</body>
+</html>
